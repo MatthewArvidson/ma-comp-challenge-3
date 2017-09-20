@@ -13,6 +13,10 @@ height: 1px;
 background-color: #2D384A;
 border: none;
 }
+textarea {
+  width: 150px;
+  text-align: center;
+}
 .main-i {
   margin-right: 5px;
 }
@@ -24,7 +28,7 @@ border: none;
 }
 .article1 {
   width: 150px;
-  height: 851px;
+  height: 1051px;
   background-color: #354052;
 }
 .profile {
@@ -39,7 +43,11 @@ border: none;
   width: 50px;
 }
 .matt-perry-text {
+  color: #A8B3C5;
   font-size: 10px;
+}
+.matt-perry-text:hover {
+  color: white;
 }
 .fa-caret-down {
   margin-left: 5px;
@@ -48,16 +56,39 @@ border: none;
   margin: 5px 0 10px -20px;
 }
 .main {
-  height: 200px;
+  height: 150px;
 }
 .main-text {
+  color: #A8B3C5;
+  font-size: 10px;
+  margin-top: 15px;
+}
+.main-text:hover {
+  color: white;
+  background-color: #30394A;
+  cursor: pointer;
+}
+.main-heading {
+  color: #636E82;
   font-size: 10px;
 }
 .admin {
-  height: 200px;
+  height: 125px;
 }
 .categories {
   height: 200px;
+}
+.sq1 {
+  color: yellow;
+}
+.sq2 {
+  color: blue;
+}
+.sq3 {
+  color: red;
+}
+.sq4 {
+  color: green;
 }
 #right {
   display: flex;
@@ -123,37 +154,43 @@ border: none;
 }
 .article3 {
   width: 100%;
-  height: 100px;
+  height: 150px;
   background-color: white;
 }
+
 .article4 {
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-color: #EDF2F6;
 }
 /*Graphs*/
-.graph {
-  display: inline;
-  height: 100px;
-  width: 200px;
-}
 .circle-graphs {
-  display: inline;
+  margin-top: 25px;
+  width: 100%;
 }
 .circle-graph-1 {
   display: inline;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  margin-left: 25px;
+  width: 150px;
 }
 .circle-graph-2 {
   display: inline;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  margin-left: 20px;
+  width: 150px;
 }
 .circle-graph-3 {
   display: inline;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  margin-left: 20px;
+  width: 150px;
+}
+.graph {
+  display: inline;
+  height: 150px;
+  margin-left: 25px;
+  width: 300px;
 }
 .bottom-line {
   border-left: thin solid lightgrey;
@@ -163,26 +200,6 @@ border: none;
   width: 100%;
   height: 500px;
   background-color: #EDF2F6;
-}
-.job-description-text-box-title,
-.job-description-text-box-card {
-  display: flex;
-  align-items: center;
-  padding: 10px 0 10px 0;
-}
-.job-description-text-box-title {
-  padding-left: 30px;
-  border-bottom: 1px solid #637189;
-}
-.job-description-text-box-header,
-.job-description-edit-button,
-.jd-title,
-.jd-text,
-.social-button > span,
-.link-button,
-.link-text {
-  font-size: 0.8em;
-}
 }
 .job-description {
   height: 500px;
