@@ -13,9 +13,15 @@ height: 1px;
 background-color: #2D384A;
 border: none;
 }
+h1 {
+  font-size: 15px;
+}
 textarea {
+  height: 30px;
   width: 150px;
-  text-align: center;
+}
+span {
+  margin-left: 30px;
 }
 .main-i {
   margin-right: 5px;
@@ -136,14 +142,27 @@ textarea {
   width: 50px;
   height: 100%;
 }
+.verticle-line-add-profile:hover {
+  background-color: #16A4FA;
+}
 .verticle-line-add-calender {
   border-right: thin solid lightgrey;
   width: 50px;
   height: 100%;
 }
+.verticle-line-add-calender:hover {
+  background-color: #16A4FA;
+}
 .verticle-line-apps {
   width: 50px;
   height: 100%;
+}
+.verticle-line-apps:hover {
+  background-color: #16A4FA;
+}
+.nav-icon {
+  font-size: 25px;
+  margin: 10px 0 0 13px;
 }
 .article2 {
   display: flex;
@@ -157,7 +176,12 @@ textarea {
   height: 150px;
   background-color: white;
 }
+.bottom-btns {
 
+}
+.bottom-btns:hover {
+  border-bottom: 5px solid #3FB0EF;
+}
 .article4 {
   width: 100%;
   height: 300px;
@@ -208,6 +232,14 @@ textarea {
 .vertical-line-job {
   border-right: thin solid lightgrey;
 }
+.cell-job-description {
+  height: 30px;
+  width: 100px;
+  border: none;
+}
+.table-top {
+  background-color: #6F7E95;
+}
 .social-btns {
   height: 550px;
   width: 200px:
@@ -229,11 +261,29 @@ textarea {
 .linkedin {
   background-color: #0382BC;
 }
-.job-links {
+.job-links-ul {
+  height: 130;
   width: 200px;
 }
 .job-link-text {
   font-size: 10px;
+}
+.fa-globe {
+  margin-right: 5px;
+}
+.copy-btn {
+ background-color: #46B7C1;
+ height: 30px;
+ width: 44px;
+
+}
+.txt-area-no-copy {
+  width: 194px;
+}
+.tom-lizzy {
+  border-radius: 100px;
+  height: 15px;
+  width: 15px;
 }
 @media only screen and (min-width : 320px) and (max-width : 480px) {
   #left {
