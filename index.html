@@ -5,138 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://use.fontawesome.com/65f9fe7522.js"></script>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Static Comp 3</title>
   </head>
   <body>
-    <header class="header-container">
-        <section class="header-hamburger-container">
-          <button class="search-bar-hamburger-button header-button" tabindex="1"></button>
-        </section>
-        <section class="search-bar-container">
-          <input type="text" class="header-search-bar-input" placeholder="Search for a job, task, or resume"></input>
-        </section>
-        <section class="header-add-job-container">
-          <button class="header-add-job-button header-button"></button>
-        </section>
-        <section class="header-add-to-calendar-container">
-          <button class="header-add-to-calendar-button header-button"></button>
-        </section>
-        <section class="header-show-grid-container">
-          <button class="header-show-grid-button header-button"></button>
-        </section>
-      </header>
-      <aside class="collapsible-aside-container">
-      <section class="aside-profile-container">
-        <img class="aside-profile-photo" src="images/photos/profile-photo.png" alt="" />
-        <div class = "name-and-arrow" role="presentation">
-          <p class="aside-profile-name">Newton Barley</p>
-          <img class="icon-down-arrow" src="images/icons/icon-down-arrow-grey.svg" />
-        </div>
-      </section>
-      <hr class="aside-line-break"/>
-      <section class="aside-main-nav-container">
-        <h3 class="aside-main-nav-title">Main</h3>
-        <nav>
-          <ul class="aside-main-nav-list">
-            <div class="home-container aside-list-item" role="presentation">
-              <li class="aside-home aside-main-nav-item uppercase"><p tabindex="0">home<p></li>
-            </div>
-            <div class="jobs-container aside-list-item" role="presentation">
-              <li class="aside-jobs aside-main-nav-item uppercase"><p tabindex="0">jobs<p></li>
-            </div>
-            <div class="resumes-container aside-list-item" role="presentation">
-              <li class="aside-resumes aside-main-nav-item uppercase"><p tabindex="0">resumes</p></li>
-            </div>
-            <div class="tasks-container aside-list-item" role="presentation">
-              <li class="aside-tasks aside-main-nav-item uppercase"><p tabindex="0">tasks</p></li>
-            </div>
-            <div class="calendar-container aside-list-item" role="presentation">
-              <li class="aside-calendar aside-main-nav-item uppercase"><p tabindex="0">calendar</p></li>
-            </div>
-          </ul>
-        </nav>
-      </section>
-      <hr class="aside-line-break"/>
-      <section class="aside-admin-nav-container">
-        <h3 class="aside-admin-nav-title">Admin</h3>
-        <nav>
-          <ul class="aside-admin-nav-list">
-            <div class="users-container aside-list-item" role="presentation">
-              <li class="aside-users aside-admin-nav-item uppercase"><p tabindex="0">users</p></li>
-            </div>
-            <div class="locations-container aside-list-item" role="presentation">
-              <li class="aside-locations aside-admin-nav-item uppercase"><p tabindex="0">locations</p></li>
-            </div>
-            <div class="workflows-container aside-list-item" role="presentation">
-              <li class="aside-workflows aside-admin-nav-item uppercase"><p tabindex="0">workflows</p></li>
-            </div>
-            <div class="job-boards-container aside-list-item" role="presentation">
-              <li class="aside-job-boards aside-admin-nav-item uppercase"><p tabindex="0">job boards</p></li>
-            </div>
-            <div class="social-container aside-list-item" role="presentation">
-              <li class="aside-social aside-admin-nav-item uppercase"><p tabindex="0">social</p></li>
-            </div>
-          </ul>
-        </nav>
-      </section class="aside-categories-nav-container">
-      <hr class="aside-line-break"/>
-      <section>
-        <h3 class="aside-categories-nav-title">Categories</h3>
-        <nav>
-          <ul class="aside-categories-nav-list">
-            <div class="nav-list-item" role="presentation">
-              <label tabindex="0" class="aside-categories-nav-label">
-                  <li class="aside-categories-nav-item">
-                    <input type="radio" name="categories" id="cb-1" tabindex="-1"></input>
-                    <span>Administrative</span>
-                  </li>
-              </label>
-            </div>
-            <div class="nav-list-item" role="presentation">
-              <label tabindex="0" class="aside-categories-nav-label">
-                <li class="aside-categories-nav-item">
-                  <input type="radio" name="categories" id="cb-2" tabindex="-1"></input>
-                  <span>Design</span>
-                </li>
-              </label>
-            </div>
-            <div class="nav-list-item" role="presentation">
-              <label tabindex="0" class="aside-categories-nav-label">
-                <li class="aside-categories-nav-item">
-                  <input type="radio" name="categories" id="cb-3" tabindex="-1"></input>
-                  <span>Executive</span
-                </li>
-              </label>
-            </div>
-            <div class="nav-list-item" role="presentation">
-              <label tabindex="0" class="aside-categories-nav-label">
-                <li class="aside-categories-nav-item">
-                  <input type="radio" name="categories" id="cb-4" tabindex="-1"></input>
-                  <span>Human Resources</span>
-                </li>
-              </label>
-            </div>
-          </ul>
-        </nav>
-      </section>
-    </aside>
-  </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <aside>
+    <nav id="nav-column">
+      <article class="nav-profile">
+      </article>
+      <article class="nav-main">
+      </article>
+      <article class="nav-admin">
+      </article>
+      <article class="nav-categories">
+      </article>
+    </nav>
+  </aside>
+  <main>
+    <header>
+      <form id="header-search">
+        <button class="hamburger-arrow"></button>
+        <button class="mag-glass"></button>
+        <input class="search-bar"></input>
+        <button class="icon-1"></button>
+        <button class="icon-2"></button>
+        <button class="icon-3"></button>
+      </form>
+    </header>
+    <section id="title-container">
+      <form id="title-info">
+        <article class="info-title">
+        </article>
+        <article class="info-buttons-right">
+        </article>
+        <article class="info-btn-bottom-row-1">
+        </article>
+        <article class="info-btn-bottom-row-2">
+        </article>
+        <article class="info-btn-bottom-row-3">
+        </article>
+        <article class="info-btn-bottom-row-4">
+        </article>
+        <article class="info-btn-bottom-row-5">
+        </article>
+        <article class="info-btn-bottom-row-6">
+        </article>
+        <article class="info-btn-bottom-row-7">
+        </article>
+        <article class="info-btn-bottom-row-8">
+        </article>
+      </form>
+    </section>
+    <section id="graph-container">
+      <form id="graphs">
+        <article class="three-circle-graphs">
+        </article>
+        <article class="chart-graph">
+        </article>
+        <article class="circle-graph-btn">
+        </article>
+        <article class="chart-graph-btn">
+        </article>
+      </form>
+    </section>
+    <section id="content">
+    </section>
+  </main>
+</body>
   <!-- <body>
     <main>
       <section id="left">
@@ -267,17 +203,17 @@
                 <li class="job-links">
                   <div><i class="fa fa-globe" aria-hidden="true"></i>Link to this Job</div>
                   <div class="job-link-text"><p>Lorem Ipsum this is where some text needs to go. This is more text so that it looks like the original comp.</p></div>
-                  <textarea> https://wwww.Google.com/morethings/tomakeit/wrap</textarea><button class="copy-btn" type="button" name="button">Copy</button>
+                  <textarea>    https://wwww.Google.com</textarea><button class="copy-btn" type="button" name="button">Copy</button>
                 </li>
                 <li class="job-links">
                   <div><i class="fa fa-globe" aria-hidden="true"></i>Link to this Job</div>
                   <div class="job-link-text"><p>Lorem Ipsum this is where some text needs to go. This is more text so that it looks like the original comp.</p></div>
-                  <textarea> https://wwww.Google.com/morethings/tomakeit/wrap</textarea><button class="copy-btn" type="button" name="button">Copy</button>
+                  <textarea>    https://wwww.Google.com</textarea><button class="copy-btn" type="button" name="button">Copy</button>
                 </li>
                 <li class="job-links">
                   <div><i class="fa fa-globe" aria-hidden="true"></i>Link to this Job</div>
                   <div class="job-link-text"><p>Lorem Ipsum this is where some text needs to go. This is more text so that it looks like the original comp.</p></div>
-                  <textarea class="txt-area-no-copy"> https://wwww.Google.com/morethings/tomakeit/wrap</textarea>
+                  <textarea class="txt-area-no-copy">    https://wwww.Google.com</textarea>
                 </li>
               </ul>
             </div>
