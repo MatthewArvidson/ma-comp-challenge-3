@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://use.fontawesome.com/65f9fe7522.js"></script>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>Static Comp 3</title>
   </head>
@@ -13,48 +13,74 @@
   <aside>
     <nav id="nav-column">
       <article class="nav-profile">
+        <ul>
+          <li><img class="profile-pic" src="images/matthew-perry.jpg" alt=""></li>
+          <li class="name"><p class="matt-perry-text">Matthew C. Perry<i class="fa fa-caret-down" aria-hidden="true"></i></p></li>
+        </ul>
+        <hr>
       </article>
       <article class="nav-main">
+        <ul>
+          <li><p class="main-heading">MAIN</p></li>
+          <li><p class="main-text"><i class="fa fa-home main-i" aria-hidden="true"></i>HOME</p></li>
+          <li><p class="main-text"><i class="fa fa-suitcase main-i" aria-hidden="true"></i>JOBS</p></li>
+          <li><p class="main-text"><i class="fa fa-file-text-o main-i" aria-hidden="true"></i>RESUME</p></li>
+          <li><p class="main-text"><i class="fa fa-clipboard main-i" aria-hidden="true"></i>TASKS</p></li>
+          <li><p class="main-text"><i class="fa fa-calendar main-i" aria-hidden="true"></i>CALENDER</p></li>
+        </ul>
+        <hr>
       </article>
       <article class="nav-admin">
+        <ul>
+          <li><p class="main-heading">ADMIN</p></li>
+          <li><p class="main-text"><i class="fa fa-users main-i" aria-hidden="true"></i>USERS</p></li>
+          <li><p class="main-text"><i class="fa fa-map-marker main-i" aria-hidden="true"></i>LOCATIONS</p></li>
+          <li><p class="main-text"><i class="fa fa-code-fork main-i" aria-hidden="true"></i>WORKFLOWS</p></li>
+          <li><p class="main-text"><i class="fa fa-share-square main-i" aria-hidden="true"></i>SOCIAL</p></li>
+        </ul>
+        <hr>
       </article>
       <article class="nav-categories">
+        <ul>
+          <li><p class="main-heading">CATEGORIES</p></li>
+          <li><p class="main-text"><i class="fa fa-square sq1 main-i" aria-hidden="true"></i>Administrative</p></li>
+          <li><p class="main-text"><i class="fa fa-square sq2 main-i" aria-hidden="true"></i>Design</p></li>
+          <li><p class="main-text"><i class="fa fa-square sq3 main-i" aria-hidden="true"></i>Exclusive</p></li>
+          <li><p class="main-text"><i class="fa fa-square sq4 main-i" aria-hidden="true"></i>Human Resources</p></li>
+        </ul>
       </article>
     </nav>
   </aside>
   <main>
     <header>
       <form id="header-search">
-        <button class="hamburger-arrow"></button>
-        <button class="mag-glass"></button>
-        <input class="search-bar"></input>
-        <button class="icon-1"></button>
-        <button class="icon-2"></button>
-        <button class="icon-3"></button>
+        <button class="hamburger-arrow hs-btn"><p class="bars"><i class="fa fa-caret-left" aria-hidden="true"></i><i class="fa fa-bars" aria-hidden="true"></i></p></button>
+        <button class="mag-glass hs-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+        <input class="search-bar" type="text" placeholder="Search for a job, task, or resume">
+        <button class="icon-1 hs-btn"><i class="fa fa-user-plus nav-icon" aria-hidden="true"></i></button>
+        <button class="icon-2 hs-btn"><i class="fa fa-calendar-plus-o nav-icon" aria-hidden="true"></i></button>
+        <button class="icon-3 hs-btn"><i class="fa fa-th nav-icon" aria-hidden="true"></i></button>
       </form>
     </header>
     <section id="title-container">
       <form id="title-info">
-        <article class="info-title">
+        <article class="info-title-content">
+          <h1>Customer Service Representative</h1>
+          <p><i class="fa fa-map-marker main-i" aria-hidden="true"></i>San Fransisco, CA <a href="www.Google.com">Preview this post</a></p>
         </article>
         <article class="info-buttons-right">
+          <button type="button" name="button">OPEN</button>
+          <button type="button" name="button"></button>
+          <button type="button" name="button"></button>
+          <button type="button" name="button"></button>
         </article>
-        <article class="info-btn-bottom-row-1">
-        </article>
-        <article class="info-btn-bottom-row-2">
-        </article>
-        <article class="info-btn-bottom-row-3">
-        </article>
-        <article class="info-btn-bottom-row-4">
-        </article>
-        <article class="info-btn-bottom-row-5">
-        </article>
-        <article class="info-btn-bottom-row-6">
-        </article>
-        <article class="info-btn-bottom-row-7">
-        </article>
-        <article class="info-btn-bottom-row-8">
-        </article>
+        <button class="info-btn-bottom-row-1 info-bottom-btn"><span>Summary</span></button>
+        <button class="info-btn-bottom-row-2 info-bottom-btn"><span>Applicants</span></button>
+        <button class="info-btn-bottom-row-3 info-bottom-btn"><span>Job Board</span></button>
+        <button class="info-btn-bottom-row-4 info-bottom-btn"><span>Interviews</span></button>
+        <button class="info-btn-bottom-row-5 info-bottom-btn"><span>Activity</span></button>
+        <button class="info-btn-bottom-row-6 info-bottom-btn"><span>Broadcast</span></button>
+        <button class="info-btn-bottom-row-7 info-bottom-btn"><span>Notifacations</span></button>
       </form>
     </section>
     <section id="graph-container">
@@ -69,7 +95,15 @@
         </article>
       </form>
     </section>
-    <section id="content">
+    <section id="bottom-content-container">
+      <form id="bottom-content">
+        <article class="left-table">
+
+        </article>
+        <article class="right-social">
+
+        </article>
+      </form>
     </section>
   </main>
 </body>
