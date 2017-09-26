@@ -290,8 +290,6 @@ p{
   color: #354052;
   cursor: pointer;
 }
-
-
 #graph-container {
   background-color: #EDF2F6;
   display: grid;
@@ -355,8 +353,6 @@ p{
   color: white;
   cursor: pointer;
 }
-
-
 #bottom-content-container {
   display: grid;
   grid-template-columns: 65% 35%;
@@ -365,8 +361,8 @@ p{
 }
 .job-description-edit-button {
   background-color: #7C8BA6;
-  background-repeat: no-repeat;
   background-position: 20% 50%;
+  background-repeat: no-repeat;
   background-size: 10px;
   border: none;
   border-radius: 3px;
@@ -383,8 +379,8 @@ p{
   margin-right: 5px;
 }
 .job-text-title {
-  padding-left: 30px;
   border-bottom: 1px solid #637189;
+  padding-left: 30px;
 }
 .job-text-header {
   font-size: 12px;
@@ -396,41 +392,41 @@ p{
 }
 .job-text-title,
 .job-text-card {
-  display: flex;
   align-items: center;
+  display: flex;
   padding: 10px 0 10px 0;
 }
 .card {
   border-bottom-left-radius: 10px;
 }
 .job-title {
+  color: #6F7E95;
   font-size: 12px;
   font-weight: 700;
   margin-left: 30px;
   width: 140px;
-  color: #6F7E95;
 }
 .job-body {
+  color: #354052;
   font-size: 12px;
   margin-left: 30px;
-  width: 70%;
-  color: #354052;
   margin-right: 30px;
+  width: 70%;
 }
 .jd-image-text {
   margin-left: 15px;
 }
 .job-text-title {
   background-color: #6F7E95;
-  color: white;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  color: white;
 }
 .tom-lizzy {
   border-radius: 100px;
   height: 25px;
-  width: 25px;
   margin-left: 35px;
+  width: 25px;
 }
 .cell {
   border-bottom: 2px #eef2f5 solid;
@@ -444,8 +440,6 @@ p{
   background-repeat: no-repeat;
   color: #7c8ba6;
 }
-
-
 #right-social {
   margin-left: 20px;
 }
@@ -453,52 +447,55 @@ p{
   display: block;
 }
 .facebook-btn {
-  background-image: url(images/icon-facebook-white.svg);
-  background-size: 10px;
-  background-repeat: no-repeat;
-  background-position: 15%;
   background-color: #496ec1;
+  background-image: url(images/icon-facebook-white.svg);
+  background-position: 15%;
+  background-repeat: no-repeat;
+  background-size: 10px;
 }
 .facebook-btn:hover {
   background-color: white;
-  color: #496ec1;
   background-image: url(images/icon-facebook-blue.svg);
-  border: 2px #496ec1 solid;
   background-position: 14.5%;
+  border: 2px #496ec1 solid;
+  color: #496ec1;
+  cursor: pointer;
   padding: 16px;
 }
 .facebook-logo {
   background-image: url(images/icon-facebook-white.svg);
 }
 .twitter-btn {
-  background-image: url(images/icon-twitter-white.svg);
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15%;
   background-color: #02abf0;
+  background-image: url(images/icon-twitter-white.svg);
+  background-position: 15%;
+  background-repeat: no-repeat;
+  background-size: 15px;
 }
 .twitter-btn:hover {
   background-color: white;
-  color: #02abf0;
   background-image: url(images/icon-twitter-blue.svg);
-  border: 2px #02abf0 solid;
   background-position: 14.5%;
+  border: 2px #02abf0 solid;
+  color: #02abf0;
+  cursor: pointer;
   padding: 16px;
 }
 .linkedin-btn {
-  background-image: url(images/icon-linked-in-white.svg);
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15%;
   background-color: #0381bc;
+  background-image: url(images/icon-linked-in-white.svg);
+  background-position: 15%;
+  background-repeat: no-repeat;
+  background-size: 15px;
   margin-bottom: 7px;
 }
 .linkedin-btn:hover {
   background-color: white;
-  color: #0381bc;
   background-image: url(images/icon-linked-in-blue.svg);
-  border: 2px #0381bc solid;
   background-position: 14.5%;
+  border: 2px #0381bc solid;
+  color: #0381bc;
+  cursor: pointer;
   padding: 16px;
 }
 .twitter-icon {
@@ -510,51 +507,51 @@ p{
 }
 .card-txt {
   background-color: #FFFDFE;
-  height: 24px;
-  border-radius: 3px;
   border: none;
+  border-radius: 3px;
   font-size: 12px;
-  width: 100%;
+  height: 24px;
   padding: 15px;
   text-overflow: ellipsis;
+  width: 100%;
 }
 .media-btn {
-  color: white;
+  align-items: center;
   border: none;
-  width: 100%;
+  border-radius: 3px;
+  color: white;
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
   padding: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 3px;
+  width: 100%;
 }
 .web-card {
-  padding-bottom: 10px;
   border-bottom: 2px #d2dae2 solid;
+  padding-bottom: 10px;
 }
 .card-btn-txt {
-  width: 100%;
-  display: flex;
   align-items: flex-start;
+  display: flex;
+  width: 100%;
 }
 .link-button {
-  border: none;
   background-color: #47bac1;
-  color: white;
-  margin-top: 8px;
-  height: 40px;
-  width: 40px;
-  border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border: none;
+  color: white;
+  height: 40px;
+  margin-top: 8px;
+  width: 40px;
 }
 .link-button:hover {
   background-color: #60dde5;
 }
 .web-card-txt {
+  color: #B8BDC3;
   font-size: 10px;
   padding-bottom: 10px;
-  color: #B8BDC3;
 }
 .all-btns:hover {
   background-color: #16A4FA;
@@ -596,10 +593,10 @@ p{
     width: 300px;
   }
   .graph-btn {
-    margin-top: 20px;
-    font-weight: 900;
     font-size: 12px;
+    font-weight: 900;
     height: 20px;
+    margin-top: 20px;
     width: 300px;
   }
   .job-title {
@@ -611,8 +608,8 @@ p{
   .job-body {
     font-size: 10px;
     margin-left: 30px;
-    width: 70%;
     margin-right: 15px;
+    width: 70%;
   }
   .job-text-header {
     font-size: 10px;
@@ -621,8 +618,8 @@ p{
   }
   .tom-lizzy {
     height: 20px;
-    width: 20px;
     margin-left: 50px;
+    width: 20px;
   }
   .web-card-txt {
     font-size: 12px;
@@ -702,8 +699,8 @@ p{
     width: 100px;
   }
   .graph-btn {
-    font-weight: 900;
     font-size: 7px;
+    font-weight: 900;
     height: 15px;
   }
   .job-title {
@@ -715,8 +712,8 @@ p{
   .job-body {
     font-size: 10px;
     margin-left: 30px;
-    width: 70%;
     margin-right: 15px;
+    width: 70%;
   }
   .job-text-header {
     font-size: 10px;
@@ -725,8 +722,8 @@ p{
   }
   .tom-lizzy {
     height: 20px;
-    width: 20px;
     margin-left: 50px;
+    width: 20px;
   }
   .all-btns {
     border-left: thin solid lightgrey;
@@ -763,8 +760,8 @@ p{
   .job-body {
     font-size: 10px;
     margin-left: 30px;
-    width: 70%;
     margin-right: 15px;
+    width: 70%;
   }
   .job-text-header {
     font-size: 10px;
@@ -773,8 +770,8 @@ p{
   }
   .tom-lizzy {
     height: 20px;
-    width: 20px;
     margin-left: 50px;
+    width: 20px;
   }
   .all-btns {
     border-left: thin solid lightgrey;
@@ -814,12 +811,13 @@ p{
     padding: 1px 1px 1px 1px;
   }
   .media-btn {
+    border-radius: 3px;
     margin-bottom: 10px;
     padding: 12px;
-    border-radius: 3px;
   }
   .media-btn:hover {
     border-radius: 3px;
+    cursor: pointer;
     margin-bottom: 10px;
     padding: 10px;
   }
@@ -849,8 +847,8 @@ p{
   .job-body {
     font-size: 8px;
     margin-left: 15px;
-    width: 70%;
     margin-right: 15px;
+    width: 70%;
   }
   .job-text-header {
     font-size: 8px;
@@ -866,15 +864,15 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
   body {
+    display: block;
     float: right;
     font: 12pt Helvetica, sans-serif;
-    width: 100%;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 50px;
     height: 100%;
     margin: 0;
     padding: 0;
-    display: block;
-    grid-template-columns: 15% 85%;
-    grid-template-rows: 50px;
+    width: 100%;
   }
   main {
     display: flex;
@@ -920,8 +918,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     display: block;
   }
   #right-social {
-    width: 100%;
     margin: 20px 0 0 0;
+    width: 100%;
   }
   #title-info {
     width: 100%;
@@ -950,13 +948,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     height: 0;
     width: 0;
   }
-  img,
+  article,
+    aside,
+    div,
+    img,
     table,
     span,
-    div,
-    section,
-    article,
-    aside {
+    section {
     max-width: 320px;
   }
   .circle-graphs {
@@ -966,8 +964,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   .graph-style {
     height: 150px;
-    width: 300px;
     margin: 0 0 20px 15px;
+    width: 300px;
   }
   .info-bottom-btn {
     display: none;
@@ -987,15 +985,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     display: none;
   }
   .title-info-h1-text {
-    text-align: center;
     font-size: 20px;
+    text-align: center;
   }
   .title-info-p-text {
-    padding-left: 20px;
     font-size: 12px;
+    padding-left: 20px;
   }
-  /*p,
-  a {
-
-  }*/
 }
