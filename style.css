@@ -14,10 +14,10 @@ main {
   display: grid;
   grid-column: 2/2;
   grid-row: 1/2;
+  grid-template-columns: 100%;
+  grid-template-rows: 6% 22% 30% 100%;
   height: 600px;
   width: 100%;
-  grid-template-rows: 6% 22% 30% 100%;
-  grid-template-columns: 100%;
 }
 nav {
   display: grid;
@@ -31,16 +31,16 @@ ul {
   padding-left: 0px;
 }
 a {
-  text-decoration: none;
   color: #74C0EF;
+  text-decoration: none;
 }
 button:focus {
   outline: none;
 }
 hr {
-  height: 1px;
   background-color: #2D384A;
   border: none;
+  height: 1px;
 }
 h2 {
   font-size: 13px
@@ -54,9 +54,9 @@ p{
 #nav-column {
   background-color: #354052;
   display: grid;
-  height: 989px;
   grid-template-columns: 100%;
   grid-template-rows: 10% 18% 15% 10%;
+  height: 989px;
 }
 .nav-profile {
   grid-area: 1/1/1/2;
@@ -72,9 +72,9 @@ p{
   width: 50px;
 }
 .matt-perry-text {
-  margin: 10px 0 0 0;
   color: #A8B3C5;
   font-size: 10px;
+  margin: 10px 0 0 0;
 }
 .matt-perry-text:hover {
   color: white;
@@ -109,8 +109,8 @@ p{
 .nav-list-btn:hover {
   background-color: #30394A;
   border-left: 2px solid #3FB0EF;
-  cursor: pointer;
   color: white;
+  cursor: pointer;
 }
 .sq1 {
   color: yellow;
@@ -127,67 +127,67 @@ p{
 
 
 #header-search {
-  display: grid;
-  height: 35px;
-  grid-template-columns: 5% 4% 76% 5% 5% 5%;
-  grid-template-rows: 100%;
   background-color: white;
   border-bottom: thin solid lightgrey;
+  display: grid;
+  grid-template-columns: 5% 4% 76% 5% 5% 5%;
+  grid-template-rows: 100%;
+  height: 35px;
 }
 .hamburger-arrow {
-  border: none;
   background-color: white;
+  border: none;
+  border-right: thin solid lightgrey;
   color: #9A9FA5;
   grid-area: 1/1/2/2;
-  border-right: thin solid lightgrey;
 }
 .fa-caret-left:before {
-  font-size: 12px;
   color: #17A3FA;
+  font-size: 12px;
   margin-right: 3px;
 }
 .fa-bars:before {
   color: #9A9FA5;
   display: flex;
-  justify-content: center;
   font-size: 12px;
+  justify-content: center;
 }
 .mag-glass {
+  background-color: white;
   border: none;
   color: #9A9FA5;
-  background-color: white;
   grid-area: 1/2/2/3;
 }
 .search-bar {
+  background-color: white;
   border: none;
   border-right: thin solid lightgrey;
   color: #9A9FA5;
-  background-color: white;
   grid-area: 1/3/2/4;
 }
 .search-bar::placeholder {
-  font-size: 10px;
   color: #C9C9D1;
+  font-size: 10px;
   padding-bottom: 2px;
 }
 .icon-1 {
-  color: #9A9FA5;
   background-color: white;
+  color: #9A9FA5;
   grid-area: 1/4/2/5;
 }
 .icon-2 {
-  color: #9A9FA5;
   background-color: white;
+  color: #9A9FA5;
   grid-area: 1/5/2/6;
 }
 .icon-3 {
-  color: #9A9FA5;
   background-color: white;
+  color: #9A9FA5;
   grid-area: 1/6/2/6;
 }
 .all-btns {
-  border: none;
   border-left: thin solid lightgrey;
+  border: none;
   font-size: 12px;
   padding: 2px 2px 2px 2px;
 }
@@ -198,8 +198,8 @@ p{
 }
 #title-info {
   display: grid;
-  grid-template-rows: 70% 30%;
   grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 16%;
+  grid-template-rows: 70% 30%;
   width: 100%;
 }
 .info-title-content {
@@ -208,13 +208,13 @@ p{
   padding: 25px 25px;
 }
 .title-info-h1-text {
-  font-size: 13px;
   color: #4e515e;
+  font-size: 13px;
   font-weight: normal;
 }
 .title-info-p-text {
-  font-size: 8px;
   color: #B7B8BC;
+  font-size: 8px;
   font-weight: normal;
 }
 .title-info-dash {
@@ -229,23 +229,23 @@ p{
   color: #9A9FA5;
 }
 .info-btn-right {
-  font-size: 8px;
   background-color: white;
-  color: #9A9FA5;
-  border-radius: 100px;
-  height: 21px;
-  width: 21px;
-  margin: auto;
   border: 1px solid lightgrey;
+  border-radius: 100px;
+  color: #9A9FA5;
+  font-size: 8px;
+  height: 21px;
+  margin: auto;
+  width: 21px;
 }
 .info-open-btn-right {
-  font-size: 8px;
   background-color: white;
-  border-radius: 100px;
-  height: 21px;
-  width: 53px;
-  margin: auto;
   border: 1px solid lightgrey;
+  border-radius: 100px;
+  font-size: 8px;
+  height: 21px;
+  margin: auto;
+  width: 53px;
 }
 .fa-circle::before {
   color: #8DC94B;
@@ -276,8 +276,8 @@ p{
   grid-area: 2/8/3/9;
 }
 .info-bottom-btn {
-  border: none;
   background-color: white;
+  border: none;
   color: #9A9FA5;
   font-size: 8px;
 }
@@ -286,18 +286,18 @@ p{
   padding-bottom: 13px;
 }
 .info-text:hover {
-  color: #354052;
   border-bottom: 3px solid #48B6F3;
+  color: #354052;
   cursor: pointer;
 }
 
 
 #graph-container {
-  height: 100%;
   background-color: #EDF2F6;
   display: grid;
-  grid-template-rows: 75% 25%;
   grid-template-columns: 60% 40%;
+  grid-template-rows: 75% 25%;
+  height: 100%;
 }
 .three-circle-graphs {
   grid-area: 1/1/2/2;
@@ -307,8 +307,8 @@ p{
 }
 .circle-graphs {
   height: 100px;
-  width: 100px;
   margin: 0 20px 0 20px;
+  width: 100px;
 }
 .cg1 {
   grid-area: 1/1/2/2;
@@ -336,13 +336,13 @@ p{
   margin: 0 auto;
 }
 .graph-btn {
-  font-size: 8px;
   background-color: #FCFEFF;
+  border: 1px solid lightgrey;
   border-radius: 100px;
   color: #86888C;
+  font-size: 8px;
   height: 21px;
   margin-bottom: 0;
-  border: 1px solid lightgrey;
 }
 .graph-btn-1 {
   width: 135px;
@@ -359,43 +359,43 @@ p{
 
 #bottom-content-container {
   display: grid;
-  display: grid;
   grid-template-columns: 65% 35%;
   grid-template-rows: 100%;
   margin: 20px 20px 0 20px;
 }
 .job-description-edit-button {
   background-color: #7C8BA6;
-  border: none;
   background-repeat: no-repeat;
   background-position: 20% 50%;
   background-size: 10px;
+  border: none;
+  border-radius: 3px;
+  color: white;
   font-size: 10px;
   font-weight: bold;
-  color: white;
-  padding: 5px;
-  width: 60px;
   height: 30px;
-  border-radius: 3px;
+  padding: 5px;
   margin-left: 40%;
+  width: 60px;
 }
 .edit-button-icon {
   height: 10px;
   margin-right: 5px;
 }
-.job-description-text-box-title {
+.job-text-title {
   padding-left: 30px;
   border-bottom: 1px solid #637189;
 }
-.job-description-text-box-header {
+.job-text-header {
   font-size: 12px;
+  margin-left: 30px;
   width: 125px;
 }
-.job-description-text-box-card {
+.job-text-card {
   background-color: white;
 }
-.job-description-text-box-title,
-.job-description-text-box-card {
+.job-text-title,
+.job-text-card {
   display: flex;
   align-items: center;
   padding: 10px 0 10px 0;
@@ -403,14 +403,14 @@ p{
 .card {
   border-bottom-left-radius: 10px;
 }
-.jd-title {
+.job-title {
   font-size: 12px;
   font-weight: 700;
   margin-left: 30px;
   width: 140px;
   color: #6F7E95;
 }
-.job-description-body {
+.job-body {
   font-size: 12px;
   margin-left: 30px;
   width: 70%;
@@ -420,7 +420,7 @@ p{
 .jd-image-text {
   margin-left: 15px;
 }
-.job-description-text-box-title {
+.job-text-title {
   background-color: #6F7E95;
   color: white;
   border-top-left-radius: 3px;
@@ -562,23 +562,440 @@ p{
   cursor: pointer;
 }
 
-/*@mixin for-phone-only {
-  @media (max-width: 599px) { @content; }
 
+@media (max-width: 2000px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  span {
+    font-size: 15px;
+  }
+  h4,
+  p,
+  i {
+    font-size: 12px;
+  }
+  #nav-column {
+    height: 1028px;
+  }
+  .all-btns {
+    border-left: thin solid lightgrey;
+  }
+  .info-text {
+    padding-bottom: 9px;
+  }
+  .circle-graphs {
+    height: 150px;
+    width: 150px;
+  }
+  .graph-style {
+    height: 150px;
+    width: 300px;
+  }
+  .graph-btn {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 12px;
+    height: 20px;
+    width: 300px;
+  }
+  .job-title {
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 15px;
+    width: 140px;
+  }
+  .job-body {
+    font-size: 10px;
+    margin-left: 30px;
+    width: 70%;
+    margin-right: 15px;
+  }
+  .job-text-header {
+    font-size: 10px;
+    margin-left: 15px;
+    width: 100px;
+  }
+  .tom-lizzy {
+    height: 20px;
+    width: 20px;
+    margin-left: 50px;
+  }
+  .web-card-txt {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+  .info-bottom-btn {
+    font-size: 15px;
+  }
+  .job-body,
+  .job-title {
+    font-size: 15px;
+  }
 }
-@mixin for-tablet-portrait-up {
-  @media (min-width: 600px) { @content; }
 
+@media (max-width: 856px) {
+  #bottom-content-container {
+    margin: 5px 5px 0 5px;
+  }
+  #graph-container {
+    height: 180px;
+  }
+  .circle-graphs {
+    height: 75px;
+    width: 75px;
+  }
+  .graph-style {
+    height: 75px;
+    width: 150px;
+  }
+  .all-btns {
+    border-left: thin solid lightgrey;
+  }
 }
-@mixin for-tablet-landscape-up {
-  @media (min-width: 900px) { @content; }
-
+@media (max-width: 745px) {
+  .web-card-txt {
+    font-size: 8px;
+    padding-bottom: 10px;
+  }
+  h1 {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  span {
+    font-size: 8px;
+  }
+  h4,
+  p,
+  i {
+    font-size: 8px;
+  }
+  img {
+    height: 10px;
+  }
+  #nav-column {
+    background-color: #354052;
+    display: grid;
+    font-size: 8px;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 18% 15% 10%;
+    height: 1071px;
+    margin
+  }
+  .nav-li {
+    padding: 3px 0 3px 10px;
+  }
+  #graph-container {
+    height: 150px;
+  }
+  .circle-graphs {
+    height: 50px;
+    width: 50px;
+  }
+  .graph-style {
+    height: 50px;
+    width: 100px;
+  }
+  .graph-btn {
+    font-weight: 900;
+    font-size: 7px;
+    height: 15px;
+  }
+  .job-title {
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 15px;
+    width: 140px;
+  }
+  .job-body {
+    font-size: 10px;
+    margin-left: 30px;
+    width: 70%;
+    margin-right: 15px;
+  }
+  .job-text-header {
+    font-size: 10px;
+    margin-left: 15px;
+    width: 100px;
+  }
+  .tom-lizzy {
+    height: 20px;
+    width: 20px;
+    margin-left: 50px;
+  }
+  .all-btns {
+    border-left: thin solid lightgrey;
+  }
 }
-@mixin for-desktop-up {
-  @media (min-width: 1200px) { @content; }
-
+@media (max-width: 715px) {
+  #nav-column {
+    background-color: #354052;
+    display: grid;
+    font-size: 8px;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 18% 15% 10%;
+    height: 1000px;
+  }
+  .circle-graphs {
+    height: 50px;
+    margin: 0 5px 0 5px;
+    width: 50px;
+  }
+  .graph-style {
+    height: 50px;
+    width: 100px;
+  }
+  .graph-btn {
+    font-size: 4px;
+    height: 10px;
+  }
+  .job-title {
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 15px;
+    width: 140px;
+  }
+  .job-body {
+    font-size: 10px;
+    margin-left: 30px;
+    width: 70%;
+    margin-right: 15px;
+  }
+  .job-text-header {
+    font-size: 10px;
+    margin-left: 15px;
+    width: 100px;
+  }
+  .tom-lizzy {
+    height: 20px;
+    width: 20px;
+    margin-left: 50px;
+  }
+  .all-btns {
+    border-left: thin solid lightgrey;
+  }
 }
-@mixin for-big-desktop-up {
-  @media (min-width: 1800px) { @content; }
+@media (max-width: 620px) {
+  #nav-column {
+    font-size: 6px;
+    height: 948px;
+  }
+  .info-title-content {
+    font-size: 8px;
+    grid-area: 1/1/2/5;
+    padding: 25px 25px;
+  }
+  .info-buttons-right {
+    grid-area: 1/7/2/9;
+    margin: auto;
+    vertical-align: middle;
+  }
+  .title-info-h1-text {
+    font-size: 10px;
+  }
+  span.info-text {
+    font-size: 8px;
+    padding-bottom: 10px;
+  }
+  .info-btn-bottom-row-8 {
+    width: 0;
+  }
+  .info-bottom-btn {
+    font-size: 6px;
+    width: 0;
+  }
+  .all-btns {
+    font-size: 8px;
+    padding: 1px 1px 1px 1px;
+  }
+  .media-btn {
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 3px;
+  }
+  .media-btn:hover {
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  #right-social {
+    margin-left: 20px;
+    width: 80%;
+  }
+  .circle-graphs {
+    height: 25px;
+    margin: 0 5px 0 5px;
+    width: 25px;
+  }
+  .graph-style {
+    height: 25px;
+    width: 50px;
+  }
+  .graph-btn {
+    font-size: 4px;
+    height: 8px;
+  }
+  .job-title {
+    font-size: 8px;
+    font-weight: 700;
+    margin-left: 10px;
+    width: 30%;
+  }
+  .job-body {
+    font-size: 8px;
+    margin-left: 15px;
+    width: 70%;
+    margin-right: 15px;
+  }
+  .job-text-header {
+    font-size: 8px;
+    margin-left: 10px;
+    width: 80px;
+  }
+  .all-btns {
+    border-left: thin solid lightgrey;
+  }
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    float: right;
+    font: 12pt Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 50px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+  aside {
+    width: 0;
+  }
+  span.info-text {
+    font-size: 6px;
+    padding-bottom: 8px;
+  }
+  span.info-text {
+    font-size: 8px;
+    padding-bottom: 10px;
+  }
+  nav {
+    color: white;
+    display: none;
+    font-size: 0;
+    height: 0;
+    width: 0;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  #graph-container {
+    display: block;
+    height: 1000px;
+  }
+  #nav-column {
+    color: white;
+    display: none;
+    font-size: 0;
+    height: 0;
+    width: 0;
+  }
+  #bottom-content-container {
+    display: block;
+  }
+  #title-container {
+    display: block;
+  }
+  #right-social {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  #title-info {
+    width: 100%;
+  }
+  #header-search {
+    height: 32px;
+  }
+  .all-btns {
+    border-left: thin solid lightgrey;
+  }
+  .info-title-content {
+    margin: 0 0 0 5px;
+    width: 255px;
+  }
+  .nav-profile {
+    color: white;
+    display: none;
+    font-size: 0;
+    height: 0;
+    width: 0;
+  }
+  .nav-categories {
+    color: white;
+    display: none;
+    font-size: 0;
+    height: 0;
+    width: 0;
+  }
+  img,
+    table,
+    span,
+    div,
+    section,
+    article,
+    aside {
+    max-width: 320px;
+  }
+  .circle-graphs {
+    height: 150px;
+    margin: 0 5px 0 80px;
+    width: 150px;
+  }
+  .graph-style {
+    height: 150px;
+    width: 300px;
+    margin: 0 0 20px 15px;
+  }
+  .info-bottom-btn {
+    display: none;
+  }
+  .graph-btn {
+    display: none;
+  }
+  .all-btns {
+    font-size: 12px;
+    padding: 2px 2px 2px 2px;
+  }
+  span.info-text {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+  .info-buttons-right {
+    display: none;
+  }
+  .title-info-h1-text {
+    text-align: center;
+    font-size: 20px;
+  }
+  .title-info-p-text {
+    padding-left: 20px;
+    font-size: 12px;
+  }
+  /*p,
+  a {
 
-}*/
+  }*/
+}
