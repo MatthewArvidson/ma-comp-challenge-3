@@ -636,6 +636,35 @@ p{
       font-size: 14px;
       padding-bottom: 10px;
     }
+    .info-btn-right {
+      height: 35px;
+      width: 35px;
+    }
+    .info-open-btn-right {
+      font-size: 10px;
+      height: 35px;
+      width: 85px;
+    }
+}
+
+@media (max-width: 1150px) {
+  .circle-graphs {
+    height: 125px;
+    width: 125px;
+  }
+  .graph-style {
+    height: 125px;
+    width: 250px;
+  }
+  .info-btn-right {
+    height: 30px;
+    width: 30px;
+  }
+  .info-open-btn-right {
+    font-size: 10px;
+    height: 30px;
+    width: 75px;
+  }
 }
 
 @media (max-width: 1040px) {
@@ -715,11 +744,45 @@ p{
     font-size: 10px;
     padding-bottom: 8px;
   }
+  .info-btn-right {
+    height: 25px;
+    width: 25px;
+  }
+  .info-open-btn-right {
+    font-size: 10px;
+    height: 25px;
+    width: 65px;
+  }
 }
 @media (max-width: 745px) {
-  .web-card-txt {
-    font-size: 8px;
-    padding-bottom: 10px;
+  body {
+    border: none;
+    display: block;
+    grid-template-rows: 100%;
+    height: 1000px;
+    width: 100%;
+  }
+  main {
+
+  }
+  article {
+    display: inline;
+  }
+  #nav-column {
+    background-color: #354052;
+    display: flex;
+    flex-direction: row;
+    font-size: 4px;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    height: 90px;
+    width: 100%;
+  }
+  #nav-column hr {
+    display: none;
+  }
+  #graph-container {
+    height: 150px;
   }
   h1 {
     font-size: 12px;
@@ -738,28 +801,39 @@ p{
   img {
     height: 10px;
   }
-  #nav-column {
+  .nav-list-btn {
+    display: none;
+  }
+  .nav-profile {
     background-color: #354052;
-    display: grid;
-    font-size: 8px;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 18% 15% 10%;
-    height: 1071px;
-    margin
+    width: 200px;
+    height: 100px;
+  }
+  .profile-pic {
+    padding-top: 5px;
   }
   .nav-li {
-    padding: 3px 0 3px 10px;
+    background-color: #354052;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+    height: 100px;
   }
-  #graph-container {
-    height: 150px;
+  .main-heading {
+    color: #A8B3C5;
+    line-height: 145px;
+  }
+  .main-heading:hover {
+    cursor: pointer;
+    color: white;
   }
   .circle-graphs {
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
   }
   .graph-style {
-    height: 50px;
-    width: 100px;
+    height: 75px;
+    width: 150px;
   }
   .graph-btn {
     font-size: 7px;
@@ -795,28 +869,100 @@ p{
     font-size: 6px;
     padding-bottom: 6px;
   }
+  .web-card-txt {
+    font-size: 8px;
+    padding-bottom: 10px;
+  }
+  .nav-list-style {
+    display: flex;
+    flex-direction: row;
+  }
 }
 @media (max-width: 715px) {
+  body {
+    border: none;
+    display: block;
+    grid-template-rows: 100%;
+    height: 1000px;
+    width: 100%;
+  }
+  main {
+
+  }
+  article {
+    display: inline;
+  }
   #nav-column {
     background-color: #354052;
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    font-size: 4px;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    height: 90px;
+    width: 100%;
+  }
+  #nav-column hr {
+    display: none;
+  }
+  #graph-container {
+    height: 150px;
+  }
+  h1 {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  span {
     font-size: 8px;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 18% 15% 10%;
-    height: 1000px;
+  }
+  h4,
+  p,
+  i {
+    font-size: 8px;
+  }
+  img {
+    height: 10px;
+  }
+  .nav-list-btn {
+    display: none;
+  }
+  .nav-profile {
+    background-color: #354052;
+    width: 200px;
+    height: 100px;
+  }
+  .profile-pic {
+    padding-top: 5px;
+  }
+  .nav-li {
+    background-color: #354052;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+  }
+  .main-heading {
+    color: #A8B3C5;
+    line-height: 145px;
+  }
+  .main-heading:hover {
+    cursor: pointer;
+    color: white;
   }
   .circle-graphs {
-    height: 50px;
-    margin: 0 5px 0 5px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
   }
   .graph-style {
-    height: 50px;
-    width: 100px;
+    height: 75px;
+    width: 150px;
   }
   .graph-btn {
-    font-size: 4px;
-    height: 10px;
+    font-size: 7px;
+    font-weight: 900;
+    height: 15px;
   }
   .job-title {
     font-size: 10px;
@@ -843,92 +989,147 @@ p{
   .all-btns {
     border-left: thin solid lightgrey;
   }
-}
-@media (max-width: 620px) {
-  #nav-column {
-    font-size: 6px;
-    height: 948px;
-  }
-  .info-title-content {
-    font-size: 8px;
-    grid-area: 1/1/2/5;
-    padding: 25px 25px;
-  }
-  .info-buttons-right {
-    grid-area: 1/7/2/9;
-    margin: auto;
-    vertical-align: middle;
-  }
-  .title-info-h1-text {
-    font-size: 10px;
-  }
   span.info-text {
+    font-size: 6px;
+    padding-bottom: 6px;
+  }
+  .web-card-txt {
     font-size: 8px;
     padding-bottom: 10px;
   }
-  .info-btn-bottom-row-8 {
-    width: 0;
+  .nav-list-style {
+    display: flex;
+    flex-direction: row;
   }
-  .info-bottom-btn {
-    font-size: 6px;
-    width: 0;
+}
+@media (max-width: 620px) {
+  body {
+    border: none;
+    display: block;
+    grid-template-rows: 100%;
+    height: 1000px;
+    width: 100%;
   }
-  .all-btns {
+  main {
+
+  }
+  article {
+    display: inline;
+  }
+  #nav-column {
+    background-color: #354052;
+    display: flex;
+    flex-direction: row;
+    font-size: 4px;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    height: 90px;
+    width: 100%;
+  }
+  #nav-column hr {
+    display: none;
+  }
+  #graph-container {
+    height: 150px;
+  }
+  h1 {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  span {
     font-size: 8px;
-    padding: 1px 1px 1px 1px;
   }
-  .media-btn {
-    border-radius: 3px;
-    margin-bottom: 10px;
-    padding: 12px;
+  h4,
+  p,
+  i {
+    font-size: 8px;
   }
-  .media-btn:hover {
-    border-radius: 3px;
+  img {
+    height: 10px;
+  }
+  .main-heading:hover {
     cursor: pointer;
-    margin-bottom: 10px;
-    padding: 10px;
+    color: white;
   }
-  #right-social {
-    margin-left: 20px;
-    width: 80%;
+  .nav-list-btn {
+    display: none;
+  }
+  .nav-profile {
+    background-color: #354052;
+    width: 200px;
+    height: 100px;
+  }
+  .profile-pic {
+    padding-top: 5px;
+  }
+  .nav-li {
+    background-color: #354052;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+  }
+  .main-heading {
+    color: #A8B3C5;
+    line-height: 145px;
   }
   .circle-graphs {
-    height: 25px;
+    height: 75px;
+    width: 75px;
     margin: 0 5px 0 5px;
-    width: 25px;
   }
   .graph-style {
-    height: 25px;
-    width: 50px;
+    height: 75px;
+    width: 150px;
   }
   .graph-btn {
-    font-size: 4px;
-    height: 8px;
+    font-size: 7px;
+    font-weight: 900;
+    height: 15px;
   }
   .job-title {
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 700;
-    margin-left: 10px;
-    width: 30%;
+    margin-left: 15px;
+    width: 140px;
   }
   .job-body {
-    font-size: 8px;
-    margin-left: 15px;
+    font-size: 10px;
+    margin-left: 30px;
     margin-right: 15px;
     width: 70%;
   }
   .job-text-header {
-    font-size: 8px;
-    margin-left: 10px;
-    width: 80px;
+    font-size: 10px;
+    margin-left: 15px;
+    width: 100px;
+  }
+  .tom-lizzy {
+    height: 20px;
+    margin-left: 50px;
+    width: 20px;
   }
   .all-btns {
     border-left: thin solid lightgrey;
   }
+  span.info-text {
+    font-size: 6px;
+    padding-bottom: 6px;
+  }
+  .web-card-txt {
+    font-size: 8px;
+    padding-bottom: 10px;
+  }
+  .nav-list-style {
+    display: flex;
+    flex-direction: row;
+  }
 }
 @media only screen
 and (min-device-width: 320px)
-and (max-device-width: 568px)
+and (max-device-width: 620px)
 and (-webkit-min-device-pixel-ratio: 2) {
   body {
     display: block;
@@ -1065,5 +1266,4 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .icon-3 {
     font-size: 15px;
   }
-
 }
